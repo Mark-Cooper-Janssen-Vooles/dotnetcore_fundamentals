@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace OdeToFood.Models
 {
-    public class Restraunt
+    public class Restaurant
     {
         public int Id { get; set; }
         public string Name { get; set; }
