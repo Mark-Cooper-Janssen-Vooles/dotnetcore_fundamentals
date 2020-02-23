@@ -1,0 +1,22 @@
+﻿@model OdeToFood.Models.Restaurant
+
+<h1>Create a Restaurant</h1>
+<form method="post">
+
+    <div>
+        Name:
+        <input type="text" name="Name" value="" placeholder="Enter name" />
+    </div>
+
+    <div>
+        Cuisine:
+        <select name="Cuisine">
+            <option value="0">None</option>
+            <option value="1">Italian</option>
+            <option value="2">French</option>
+            <option value="3">German</option>
+        </select>
+    </div>
+
+    <input type="submit" name="save" value="save" />
+</form>
